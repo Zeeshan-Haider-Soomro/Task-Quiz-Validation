@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+    <div class="container-fluid d-flex">
+        <div class="text-center w-50">
+            <img class="mb-4" src="../images/Group 114 (3).png" alt="">
+            <p class="mb-5">Welcome back! <br> Please login/Signup to your account.</p>
+            <br>
+            <form class="w-75 text-center" onsubmit="signup();">
+                <div class="mb-3 userName text-start">
+                    <label for="exampleInputEmail1" class="form-label">&nbsp;&nbsp;User Name</label>
+                    <input type="text" class="form-control" id="username" aria-describedby="emailHelp" placeholder="zeeshan haider">
+                </div>
+                <div class="mb-3 eMail text-start">
+                    <label for="exampleInputEmail1" class="form-label">&nbsp;&nbsp;Email address</label>
+                    <input type="email" class="form-control" id="userEmail" aria-describedby="emailHelp" placeholder="zeeshanhaider@gmail.com">
+                </div>
+                <div class="mb-3 password text-start">
+                    <label for="exampleInputPassword1" class="form-label">&nbsp;&nbsp;Password</label>
+                    <input type="password" class="form-control" id="userPassword" placeholder="*******************">
+                </div>
+                <button type="submit" class="btn button">Sign Up</button>
+                <div class="d-flex justify-content-start align-items-center mt-5">
+                    <p>Or login with </p>
+                    <p class="yellowlinks">&nbsp;Facebook</p>
+                    <p class="yellowlinks">&nbsp;Google</p>
+                </div>
+            </form>
+        </div>
+        <div class="topi w-50">
+            <img class="d-flex justify-content-center align-items-center" src="../images/Hands Graduate (3).png" alt="">
+        </div>
+    </div>
+
+
+
+    <!-- <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+          
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="signup.js"></script>
+</body>
+
+</html>

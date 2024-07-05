@@ -1,0 +1,68 @@
+
+
+section {
+    width: 60%;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.signUp{
+    padding: 10px;
+    border: 1px solid #FCC822;
+    color: #FCC822;
+    background-color: white;
+}
+.tags{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    color: #E0E0E0;
+}
+.buttonYellow{
+    background-color: #FCC822;
+    color: aliceblue;
+    border: none;
+    outline: none;
+}
+.yellowcolor{
+    color: #FCC822;
+}
+.imgTop{
+    height: 53.32px;
+    width: 234.56px;
+}
+.topi{
+    background-color: #fafafa;
+}
+.userName,.eMail,.password{
+    border: 2px solid #C1BBBB;
+}
+.form-control{
+    outline: none;
+    border: 0;
+}
+.button {
+    display: flex;
+    align-items: center;
+    border: 1.5px solid #FCC822;
+    padding: 8px;
+    color: #FCC822;
+    background-color: white;
+    box-shadow: 5px 5px 5px #FCC822;
+}
+.yellowlinks{
+    color: #FCC822;
+    font-weight: 900;
+}
