@@ -66,3 +66,8 @@ a{
     color: #FCC822;
     font-weight: 900;
 }
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
