@@ -11,4 +11,7 @@ const showData = () => {
 }
 showData();
 
-showData();
+const logOut = () => {
+    localStorage.clear();
+    window.location.href = "../index.html";
+}

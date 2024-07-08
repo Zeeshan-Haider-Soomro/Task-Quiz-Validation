@@ -10,6 +10,11 @@ section {
     margin: 0;
     box-sizing: border-box;
 }
+.container-fluid{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 .container{
     display: flex;
     justify-content: space-around;
