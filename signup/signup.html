@@ -13,8 +13,8 @@
 
     <div class="container-fluid d-flex">
         <div class="text-center w-50">
-            <img class="mb-4" src="../images/Group 114 (3).png" alt="">
-            <p class="mb-5">Welcome back! <br> Please login/Signup to your account.</p>
+            <img class="" src="../images/Group 114 (3).png" alt="">
+            <p class="">Welcome back! <br> Please login/Signup to your account.</p>
             <br>
             <form class="w-75 text-center" onsubmit="signup();">
                 <div class="mb-3 userName text-start">
@@ -28,6 +28,10 @@
                 <div class="mb-3 password text-start">
                     <label for="exampleInputPassword1" class="form-label">&nbsp;&nbsp;Password</label>
                     <input type="password" class="form-control" id="userPassword" placeholder="*******************">
+                </div>
+                <div class="mb-3 password text-start">
+                    <label for="exampleInputPassword1" class="form-label">&nbsp;&nbsp;Upload Your Picture</label>
+                    <input onchange="uploadImage()" type="file" accept=".png, jpg, jpeg, wepb" class="form-control" id="userPassword">
                 </div>
                 <button type="submit" class="btn button">Sign Up</button>
                 <div class="d-flex justify-content-start align-items-center mt-5">
