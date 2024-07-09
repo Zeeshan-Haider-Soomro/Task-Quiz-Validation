@@ -3,4 +3,8 @@
     width: 50px;
     object-fit: contain;
     border-radius: 100%;
+    border: 2px solid white;
+}
+.btn{
+    background-color: black;
 }
