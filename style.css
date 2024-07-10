@@ -25,6 +25,11 @@ section {
     border: 1px solid #FCC822;
     color: #FCC822;
     background-color: white;
+    box-shadow: 5px 5px 5px #FCC822;
+}
+.signUp:hover{
+    background-color: #FCC822;
+    color: #fafafa;
 }
 .tags{
     display: flex;
@@ -50,6 +55,7 @@ a{
 }
 .topi{
     background-color: #fafafa;
+    height: 100vh;
 }
 .userName,.eMail,.password{
     border: 2px solid #C1BBBB;
