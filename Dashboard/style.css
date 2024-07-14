@@ -8,3 +8,6 @@
 .btn{
     background-color: black;
 }
+.logOut:hover{
+    cursor: pointer;
+}

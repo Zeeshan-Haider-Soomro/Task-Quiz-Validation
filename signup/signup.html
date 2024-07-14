@@ -11,25 +11,25 @@
 
 <body>
 
-    <div class="container-fluid d-flex">
+    <div class="container-fluid d-flex resp">
         <div class="text-center w-50">
             <img class="" src="../images/Group 114 (3).png" alt="">
             <p class="">Welcome back! <br> Please login/Signup to your account.</p>
             <br>
             <form class="w-75 text-center" onsubmit="signup();">
-                <div class="mb-3 userName text-start">
+                <div class="mb-3 myDiv userName text-start">
                     <label for="exampleInputEmail1" class="form-label">&nbsp;&nbsp;User Name</label>
                     <input type="text" class="form-control" id="username" aria-describedby="emailHelp" placeholder="zeeshan haider">
                 </div>
-                <div class="mb-3 eMail text-start">
+                <div class="mb-3 myDiv eMail text-start">
                     <label for="exampleInputEmail1" class="form-label">&nbsp;&nbsp;Email address</label>
                     <input type="email" class="form-control" id="userEmail" aria-describedby="emailHelp" placeholder="zeeshanhaider@gmail.com">
                 </div>
-                <div class="mb-3 password text-start">
+                <div class="mb-3 myDiv password text-start">
                     <label for="exampleInputPassword1" class="form-label">&nbsp;&nbsp;Password</label>
                     <input type="password" class="form-control" id="userPassword" placeholder="*******************">
                 </div>
-                <div class="mb-3 password text-start">
+                <div class="mb-3 myDiv password text-start">
                     <label for="exampleInputPassword1" class="form-label">&nbsp;&nbsp;Upload Your Picture</label>
                     <input onchange="uploadImage()" type="file" accept=".png, jpg, jpeg, wepb" class="form-control" id="userPassword">
                 </div>

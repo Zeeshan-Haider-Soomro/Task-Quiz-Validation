@@ -87,3 +87,15 @@ a{
     justify-content: center;
     align-items: center;
 }
+
+@media screen and (max-width:764px) {
+    .resp{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .myDiv {
+        width: 350px;
+        margin-left: -90px;
+    }
+}
